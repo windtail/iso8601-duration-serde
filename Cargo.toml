@@ -1,0 +1,15 @@
+[package]
+name = "iso8601-duration-serde"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+iso8601-duration = { version = "0.2", features = ["serde"] }
+serde = "1"
+time = "0.3"
+time-core = "0.1"
+
+[dev-dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1.0.145"
+
