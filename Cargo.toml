@@ -2,6 +2,9 @@
 name = "iso8601-duration-serde"
 version = "0.1.0"
 edition = "2024"
+repository = "https://github.com/windtail/iso8601-duration-serde"
+license = "MIT"
+description = "A Rust library for serializing and deserializing time::Duration using the ISO 8601 format."
 
 [dependencies]
 iso8601-duration = { version = "0.2", features = ["serde"] }

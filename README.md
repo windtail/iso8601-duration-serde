@@ -16,15 +16,6 @@ Examples:
 - `PT45S` represents 45 seconds
 - `P2DT3H30M15S` represents 2 days, 3 hours, 30 minutes, and 15 seconds
 
-## Installation
-
-Add the following to your `Cargo.toml` file:
-
-```toml
-[dependencies]
-iso8601-duration-serde = "0.1"
-```
-
 ## Example
 
 ```rust
